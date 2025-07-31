@@ -8,6 +8,6 @@
 
 <img width="1316" height="364" alt="Screenshot 2025-07-31 125945" src="https://github.com/user-attachments/assets/70eee189-c7ae-4d22-8fa8-d893721f020e" />
 
-Run the Portfolio : start index.html
+To Access this Portfolio : start index.html
 
 
