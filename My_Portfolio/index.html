@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swaroop Nairy | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: #1e3a8a;
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+      border-bottom: 5px solid #60a5fa;
+    }
+    header h1 {
+      font-size: 2.75rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    nav {
+      margin-top: 1.5rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #93c5fd;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+    nav a:hover {
+      color: #ffffff;
+    }
+    section {
+      padding: 3rem 1rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 2rem;
+      color: #1e3a8a;
+      border-left: 6px solid #3b82f6;
+      padding-left: 0.75rem;
+      margin-bottom: 2rem;
+    }
+    .card {
+      background: #ffffff;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-left: 5px solid #3b82f6;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #1e293b;
+    }
+    .btn {
+      display: inline-block;
+      background: #3b82f6;
+      color: white;
+      padding: 0.5rem 1.25rem;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 500;
+      margin-top: 0.75rem;
+    }
+    .btn:hover {
+      background: #2563eb;
+    }
+    ul {
+      padding-left: 1.25rem;
+      line-height: 1.8;
+    }
+    li {
+      margin-bottom: 0.75rem;
+    }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .contact-box {
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 1.5rem;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+    .contact-box:hover {
+      transform: translateY(-3px);
+    }
+    .contact-box a {
+      color: #3b82f6;
+      text-decoration: none;
+      font-weight: 600;
+      display: block;
+      margin-top: 0.5rem;
+    }
+    .contact-box a:hover {
+      text-decoration: underline;
+    }
+    .resume-btn {
+      text-align: center;
+      margin-top: 2.5rem;
+    }
+    .resume-btn a {
+      background: #1e3a8a;
+      color: white;
+      padding: 0.75rem 2rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      display: inline-block;
+    }
+    .resume-btn a:hover {
+      background: #2563eb;
+    }
+    footer {
+      background: #1e293b;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      nav a {
+        display: block;
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+ <body>
+  <header>
+    <h1>Swaroop Nairy</h1>
+    <p>Computer Science & Data Science Undergraduate</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>I am a Computer Science and Data Science undergraduate with a strong foundation in Python, web development, and data science. I have experience in building real-world projects related to fraud detection, network security, and management systems. I enjoy learning new technologies and applying them to solve practical problems.</p>
+  </section>
+
+  <section id="education">
+    <h2 class="section-title">Education</h2>
+    <ul>
+      <li><strong>Sahyadri College of Engineering and Management</strong> — B.E. in Computer Science (Data Science), 2022–2026 | CGPA: 8.51</li>
+      <li><strong>Viveka PU College, Kota</strong> — PCMB, 2020–2022 | 87.8%</li>
+      <li><strong>Govt High School, Brahmavara</strong> — SSLC, 2017–2020 | 89.92%</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="card">
+      <h3>Credit Card Fraud Detection</h3>
+      <p>Detects fraudulent transactions using Python, Flask, and transaction file analysis.</p>
+      <a href="https://github.com/swarooop795/Credit-Card-Fraud-Detection.git" class="btn">GitHub</a>
+    </div>
+
+    <div class="card">
+      <h3>Gym Membership Management System</h3>
+      <p>CRUD system to manage members and plans using MongoDB, Python, Flask.</p>
+      <a href="https://github.com/swarooop795/MongoDB-Gym-Membership-Management-System.git" class="btn">GitHub</a>
+    </div>
+
+    <div class="card">
+      <h3>Secure Communication & IDS</h3>
+      <p>Packet Sniffer & ARP Spoof Detection system using Flask, Python, and Scapy.</p>
+      <a href="https://github.com/swarooop795/secure-comm-IDS.git" class="btn">GitHub</a>
+    </div>
+
+    <div class="card">
+      <h3>College Management System</h3>
+      <p>Platform for managing results, study materials, and updates using Flask.</p>
+      <a href="https://github.com/swarooop795/College-Management-System.git" class="btn">GitHub</a>
+    </div>
+
+    <div class="card">
+      <h3>WiFi Analyser</h3>
+      <p>Calculates and analyzes WiFi signal strength using Python and SQLite.</p>
+      <a href="https://github.com/swarooop795/Wifi_analyser.git" class="btn">GitHub</a>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2 class="section-title">Skills & Certifications</h2>
+    <ul>
+      <li><strong>Languages:</strong> Python, C, Java, HTML, CSS</li>
+      <li><strong>Frameworks & Tools:</strong> Flask, Bootstrap, MongoDB, SQLite, Pandas, GitHub, LaTeX, Excel</li>
+      <li><strong>Certifications:</strong> Cyber Security Foundation (Infosys), Python for Data Science (Great Learning), JobReady Employability Skills (Wadhwani Foundation)</li>
+    </ul>
+  </section>
+
+  <section id="achievements">
+    <h2 class="section-title">Achievements & Activities</h2>
+    <ul>
+      <li>Social Innovation Project – Year-long program for real-world problem-solving (2022–2023)</li>
+      <li>Full Stack Development Bootcamp (MERN + Bootstrap) – Apr–Jul 2024</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="contact-grid">
+      <div class="contact-box">📧 <a href="mailto:swaroopnairy@gmail.com">swaroopnairy@gmail.com</a></div>
+      <div class="contact-box">📞 <a href="tel:+918951240738">+91 8951240738</a></div>
+      <div class="contact-box">🔗 <a href="https://www.linkedin.com/in/swaroop-nairy-aa615526a">LinkedIn</a></div>
+      <div class="contact-box">💻 <a href="https://github.com/swarooop795">GitHub</a></div>
+    </div>
+    <div class="resume-btn">
+      <a href="https://drive.google.com/file/d/1z2d0YkdFRYBW4sxFVAjMyiJG6Twm1Yvf/view?usp=drive_link" download>⬇️ Download Resume</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Swaroop Nairy. All Rights Reserved.</p>
+  </footer>
+</body>
+
+</body>
+</html>
