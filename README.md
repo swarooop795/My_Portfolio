@@ -1,6 +1,6 @@
 # My_Portfolio
 
-<img width="1126" height="625" alt="Screenshot 2025-08-02 112401" src="https://github.com/user-attachments/assets/32a5cd9a-f307-4342-9fe4-6ac720e90179" />
+<img width="1127" height="625" alt="Screenshot 2025-08-02 114348" src="https://github.com/user-attachments/assets/a57e34b0-083c-4076-b372-ad034133281e" />
 
 <img width="1136" height="564" alt="Screenshot 2025-08-02 112443" src="https://github.com/user-attachments/assets/4b4dabf6-5c1d-4d94-90c2-6fc0d0ed17fe" />
 
